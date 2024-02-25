@@ -1,2 +1,2 @@
-# blalia.github.io
-Web secondario
+# Sviluppo progetti di Blalia
+Questo è tutto per il momento.
