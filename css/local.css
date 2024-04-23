@@ -18,12 +18,12 @@
 }
 
 @media (min-width: 1536px) {
-  .container {
+  .bio .container {
     max-width: 1320px;
   }
 }
 
-.container-small {
+.bio .container {
   max-width: 680px;
   margin-right: auto;
   margin-left: auto;
@@ -31,19 +31,12 @@
   padding-left: var(--pico-spacing);
 }
 
-.full-width {
-  width: 100%;
-  max-width: 100%;
+.bio > header {
+  margin-block: .5rem;
 }
 
-.content-justify-center {
+.bio > header > nav {
   justify-content: center;
-}
-
-.align-center {
-  /*display: inline-block;*/
-  /*margin-inline: auto;*/
-  text-align: center;
 }
 
 .logo, .logo :is(a, a:hover) {
@@ -54,11 +47,16 @@
   margin: 0;
 }
 
-main > picture img {
+.bio > main > picture img {
   display: block;
   margin-inline: auto;
   margin-bottom: 2rem;
   width: 122px;
   height: 122px;
   border-radius: 50%;
+}
+
+.bio > main > hgroup {
+  text-align: center;
+  text-wrap: balance;
 }
