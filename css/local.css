@@ -17,7 +17,7 @@
 }
 
 .logo {
-  font: 600 3rem/1 var(--font-sans-serif-logo);
+  font: 600 2rem/1 var(--font-sans-serif-logo);
   text-decoration: none;
   text-transform: lowercase;
   margin: 0;
