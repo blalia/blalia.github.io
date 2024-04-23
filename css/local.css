@@ -31,9 +31,15 @@
   padding-left: var(--pico-spacing);
 }
 
+.full-width {
+  width: 100%;
+  max-width: 100%;
+}
+
 .align-center {
   display: inline-block;
   margin-inline: auto;
+  text-align: center;
 }
 
 .logo, .logo :is(a, a:hover) {
