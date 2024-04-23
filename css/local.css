@@ -16,15 +16,10 @@
   padding-left: var(--pico-spacing);
 }
 
-.logo {
+.logo, .logo :is(a, a:hover) {
   font: 600 2rem/1 var(--font-sans-serif-logo);
   color: var(--pico-color);
   text-decoration: none;
   text-transform: lowercase;
   margin: 0;
-}
-
-.logo a:hover {
-  color: var(--pico-color);
-  text-decoration: none;
 }
