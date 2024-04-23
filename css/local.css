@@ -1,3 +1,18 @@
+[data-theme=light],
+:root:not([data-theme=dark]) {
+  --local-color: #1f1f1f;
+}
+
+@media only screen and (prefers-color-scheme: dark) {
+  :root:not([data-theme]) {
+    --local-color: #e3e3e3;
+  }
+}
+
+[data-theme=dark] {
+  --local-color: #e3e3e3;
+}
+
 :root {
   --font-sans-serif-logo: 'Comfortaa', var(--pico-font-family);
 }
@@ -18,7 +33,7 @@
 
 .logo, .logo :is(a, a:hover) {
   font: 600 2rem/1 var(--font-sans-serif-logo);
-  color: var(--pico-color);
+  color: var(--local-color);
   text-decoration: none;
   text-transform: lowercase;
   margin: 0;
