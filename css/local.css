@@ -1,3 +1,7 @@
+:root {
+  --font-sans-serif-logo: 'Comfortaa', var(--pico-font-family);
+}
+
 @media (min-width: 1536px) {
   .container {
     max-width: 1320px;
@@ -10,4 +14,11 @@
   margin-left: auto;
   padding-right: var(--pico-spacing);
   padding-left: var(--pico-spacing);
+}
+
+.logo {
+  font: 600 3rem/1 var(--font-sans-serif-logo);
+  text-decoration: none;
+  text-transform: lowercase;
+  margin: 0;
 }
