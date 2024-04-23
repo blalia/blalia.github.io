@@ -36,9 +36,13 @@
   max-width: 100%;
 }
 
+.content-align-center {
+  justify-content: center;
+}
+
 .align-center {
-  display: inline-block;
-  margin-inline: auto;
+  /*display: inline-block;*/
+  /*margin-inline: auto;*/
   text-align: center;
 }
 
