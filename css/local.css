@@ -55,10 +55,10 @@
 }
 
 main > picture img {
-	display: block
-	margin-inline: auto;
-	margin-bottom: 2rem;
-	width: 122px;
-	height: 122px;
+  display: block
+  margin-inline: auto;
+  margin-bottom: 2rem;
+  width: 122px;
+  height: 122px;
   border-radius: 50%;
 }
