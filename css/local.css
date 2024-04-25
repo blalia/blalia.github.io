@@ -24,13 +24,16 @@
 }
 
 .bio .container {
-  --pico-font-size: 1rem;
   max-width: 680px;
   margin-right: auto;
   margin-left: auto;
   padding-right: var(--pico-spacing);
   padding-left: var(--pico-spacing);
   padding-top: 0;
+}
+
+.bio .container p {
+  --pico-font-size: 1rem;
 }
 
 .bio > header {
