@@ -24,6 +24,7 @@
 }
 
 .bio .container {
+  --pico-font-size: 100%
   max-width: 680px;
   margin-right: auto;
   margin-left: auto;
@@ -62,6 +63,6 @@
   text-wrap: balance;
 }
 
-.bio > main p {
+/* .bio .container p {
   font-size: 1rem;
-}
+} */
