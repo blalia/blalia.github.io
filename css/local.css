@@ -32,10 +32,6 @@
   padding-top: 0;
 }
 
-.bio .container p {
-  font-size: 1rem;
-}
-
 .bio > header {
   padding-block: 0;
 }
@@ -66,6 +62,9 @@
   text-wrap: balance;
 }
 
+.bio > main .container p {
+  font-size: 1rem;
+}
 /* .bio .container p {
   font-size: 1rem;
 } */
