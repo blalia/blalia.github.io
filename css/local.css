@@ -30,7 +30,6 @@
   padding-right: var(--pico-spacing);
   padding-left: var(--pico-spacing);
   padding-top: 0;
-  font-size: 1rem;
 }
 
 .bio > header {
@@ -61,4 +60,8 @@
 .bio > main > hgroup {
   text-align: center;
   text-wrap: balance;
+}
+
+.bio > main p {
+  font-size: 1rem;
 }
