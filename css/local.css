@@ -66,6 +66,7 @@
 
 .bio > footer {
   border-top: 1px solid var(--pico-color-zinc-200);
-  width: calc(100% - 1rem);
+  width: calc(100% - var(--pico-spacing));
   padding-top: .5rem;
+  padding-inline: 0;
 }
