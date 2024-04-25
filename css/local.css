@@ -70,3 +70,9 @@
   padding-top: .5rem;
   padding-inline: 0;
 }
+
+@media (min-width: 680px) {
+  .bio > .container {
+    padding-inline: 0;
+  }
+}
