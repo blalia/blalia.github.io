@@ -24,7 +24,7 @@
 }
 
 .bio .container {
-  --pico-font-size: 100%;
+  --pico-font-size: 1rem;
   max-width: 680px;
   margin-right: auto;
   margin-left: auto;
