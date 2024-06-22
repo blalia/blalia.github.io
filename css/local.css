@@ -102,6 +102,10 @@
     justify-content: center;
   }
 
+  main picture+hgroup {
+    margin-bottom: 2rem;
+  }
+
   main, main.container {
     display: flex;
     flex-direction: column;
