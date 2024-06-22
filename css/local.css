@@ -83,11 +83,18 @@
   justify-content: center;
 }
 
+@media (min-width: 1024px) {
+  #art .container {
+    max-width: 938px;
+  }
+}
+
 #art {
   main, main.container {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    flex: 1;
   }
 
   main hgroup {
