@@ -84,7 +84,15 @@
 }
 
 #art {
+  main {
+    justify-content: center;
+  }
+
   main hgroup {
+    max-width: 732px;
+  }
+
+  main p {
     max-width: 732px;
   }
 }
