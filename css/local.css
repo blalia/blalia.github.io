@@ -99,9 +99,11 @@
 
   main hgroup {
     max-width: 732px;
+    margin-block: auto;
   }
 
   main p {
     max-width: 732px;
+    margin-block: auto;
   }
 }
