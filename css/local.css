@@ -72,7 +72,7 @@
 }
 
 @media (min-width: 680px) {
-  .bio > .container {
+  .bio > .container { 
     padding-inline: 0;
   }
 }
@@ -85,6 +85,8 @@
 
 #art {
   main {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
   }
 
