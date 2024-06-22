@@ -76,3 +76,14 @@
     padding-inline: 0;
   }
 }
+
+#art {
+  display: flex;
+  justify-content: center;
+}
+
+#art {
+  main hgroup {
+    max-width: 732px;
+  }
+}
